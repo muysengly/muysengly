@@ -1,5 +1,7 @@
 title: SENGLY MUY
 
+disqus: aaaaaaaaaa
+
 description: A minimal and beautiful Jekyll theme best for writing and note-taking.
 
 author: SENGLY MUY
@@ -35,7 +37,6 @@ remote_theme: ngzhio/jekyll-theme-hamilton
 
 # Uncomment the below lines and set the Disqus shortname for enabling Disqus
 #
-# disqus:
 
 # Jekyll
 # ======
