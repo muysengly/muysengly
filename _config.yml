@@ -12,6 +12,9 @@ location: Cambodia
 
 subscribe: False
 
+# The number of posts on each page.
+paginate: 10
+
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
@@ -21,8 +24,6 @@ plugins:
   - jekyll-remote-theme
 
 remote_theme: ngzhio/jekyll-theme-hamilton
-
-paginate: 10
 
 # Uncomment the below line and set the tracking ID for enabling Google Analytics
 #
@@ -41,18 +42,18 @@ exclude:
 
 # Jekyll SEO Tag (Optional)
 # =========================
-twitter:
-  username: ngzhio
-  card: summary
+# twitter:
+#   username: ngzhio
+#   card: summary
 
 logo: logo.png
 
-social:
-  name: Shangzhi Huang
-  links:
-    - https://twitter.com/ngzhio
-    - https://www.facebook.com/ngzhio
-    - https://github.com/ngzhio
+# social:
+#   name: Shangzhi Huang
+#   links:
+#     - https://twitter.com/ngzhio
+#     - https://www.facebook.com/ngzhio
+#     - https://github.com/ngzhio
 
 google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
 
