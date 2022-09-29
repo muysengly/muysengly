@@ -4,12 +4,12 @@
 
 - title: FaceBook
   url: https://www.facebook.com/muysengly/
-  icon: fa fa-facebook
+  icon: fab fa-facebook
 
 - title: YouTube
   url: https://www.youtube.com/channel/UCDDHktTS7Lylp4MhccXY6yA
-  icon: fa fa-youtube
+  icon: fab fa-youtube
 
 - title: GitHub
   url: https://github.com/muysengly/muysengly
-  icon: fa fa-github
+  icon: fab fa-github
