@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmuysengly"]=self["webpackChunkmuysengly"]||[]).push([[443],{7381:function(n,u,e){e.r(u),e.d(u,{default:function(){return f}});var s=e(3396);const t={class:"about"},a=(0,s._)("h1",null,"This is an about page",-1),r=[a];function c(n,u){return(0,s.wg)(),(0,s.iD)("div",t,r)}var i=e(89);const l={},o=(0,i.Z)(l,[["render",c]]);var f=o}}]);
+//# sourceMappingURL=about.bbd20fb5.js.map
