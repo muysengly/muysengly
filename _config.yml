@@ -1,14 +1,18 @@
-title: MUY SENGLY
+title: SENGLY MUY
 
 description: A minimal and beautiful Jekyll theme best for writing and note-taking.
 
-author: MUY SENGLY
+author: SENGLY MUY
 
 avatar: /my_photo.png
 
 email: muysengly@gmail.com
 
 location: Cambodia
+
+skin: daylight
+
+lang: en
 
 subscribe: False
 
@@ -56,7 +60,3 @@ logo: logo.png
 #     - https://github.com/ngzhio
 
 google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
-
-lang: en
-
-skin: daylight
