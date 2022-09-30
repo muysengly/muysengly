@@ -173,10 +173,10 @@ defaults:
     values:
       swcache: true
 
-  - scope:
-      path: "_posts"
-    values:
-      swcache: true
+  # - scope:
+  #     path: "_posts"
+  #   values:
+  #     swcache: true
 
 sass:
   style: compressed
