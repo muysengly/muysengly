@@ -24,7 +24,7 @@ Programming languages provide various control structures that allow for more com
 
 A loop statement allows us to execute a statement or group of statements multiple times. The following diagram illustrates a loop statement −
 
-![Loop Architecture](images\loop_architecture.jpg)
+![Loop Architecture](images/loop_architecture.jpg)
 
 Python programming language provides following types of loops to handle looping requirements.
 
