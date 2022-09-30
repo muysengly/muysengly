@@ -1,20 +1,18 @@
 #  The contact options.
-
--
-  type: github
-  icon: 'fab fa-github'
--
-  type: twitter
-  icon: 'fab fa-twitter'
--
-  type: email
-  icon: 'fas fa-envelope'
-  noblank: true            # open link in current tab
--
-  type: rss
-  icon: 'fas fa-rss'
-  noblank: true
-
+- type: facebook
+  icon: "fab fa-facebook"
+- type: youtube
+  icon: "fab fa-youtube"
+- type: telegram
+  icon: "fab fa-telegram"
+- type: github
+  icon: "fab fa-github"
+# - type: email
+#   icon: "fas fa-envelope"
+# noblank: true # open link in current tab
+# - type: rss
+#   icon: "fas fa-rss"
+# noblank: true
 # Uncomment and complete the url below to enable more contact options
 # -
 #   type: mastodon

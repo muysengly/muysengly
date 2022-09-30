@@ -704,14 +704,14 @@ $sidebar-display: "sidebar-display";
       @extend %clickable-transition;
 
       font-weight: 900;
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       letter-spacing: 0.5px;
       color: rgba(134, 133, 133, 99%);
     }
   }
 
   .site-subtitle {
-    font-size: 95%;
+    font-size: 1.2rem;
     color: var(--sidebar-muted-color);
     line-height: 1.2rem;
     word-spacing: 1px;

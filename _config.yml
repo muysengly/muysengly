@@ -31,23 +31,20 @@ description: >- # used by seo meta and the atom feed
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://muysengly.github.io"
 
-github:
-  username: github_username # change to your github username
-
-twitter:
-  username: twitter_username # change to your twitter username
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: MUY SENGLY
   email: muysengly@gmail.com # change to your email address
   links:
+    - https://www.facebook.com/muysengly
+    - https://www.youtube.com/channel/UCDDHktTS7Lylp4MhccXY6yA
+    - https://t.me/muysengly
+    - https://www.github.com/muysengly
+
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+
     # - https://www.linkedin.com/in/username
 
 google_site_verification: # fill in to your verification string
