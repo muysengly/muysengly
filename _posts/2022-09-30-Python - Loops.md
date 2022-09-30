@@ -9,7 +9,7 @@ comments: true
 math: true
 mermaid: true
 pin: false
-img_path: /assets/python/
+img_path: /
 ---
 
 # Python - Loops
