@@ -9,7 +9,7 @@ comments: true
 math: true
 mermaid: true
 pin: false
-img_path: /posts/
+img_path: /_posts/
 ---
 
 # Python - Loops
