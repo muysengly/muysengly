@@ -3,7 +3,8 @@
 source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 5.3", ">= 5.3.0"
-gem 'jekyll-plantuml-base64', '~> 0.1.4.36.1'
+
+
 
 group :test do
   gem "html-proofer", "~> 3.18"
