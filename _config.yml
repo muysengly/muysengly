@@ -87,7 +87,7 @@ img_cdn:
 avatar: "/my_photo.png"
 
 # boolean type, the global switch for ToC in posts.
-toc: false
+toc: true
 
 comments:
   active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
@@ -111,10 +111,10 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: true # boolean, keep empty means false
+    enabled: # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env: development # [development|production]
+    env: # [development|production]
 
 pwa:
   enabled: true # the option for PWA feature
