@@ -52,7 +52,7 @@ notification:
 # ----- Posts related labels -----
 
 post:
-  written_by: By
+  written_by: "By: MUY SENGLY"
   posted: Posted
   updated: Updated
   words: words
