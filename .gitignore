@@ -1,7 +1,21 @@
-# ORIGINAL
-# *.gem
-# .bundle
-# .jekyll-cache
-# .sass-cache
-# _site
-# Gemfile.lock
+# hidden files
+.*
+!.git*
+!.editorconfig
+!.nojekyll
+!.travis.yml
+!.husky
+!.commitlintrc.json
+!.versionrc.json
+
+# bundler cache
+_site
+vendor
+Gemfile.lock
+
+# rubygem
+*.gem
+
+# npm dependencies
+node_modules
+package-lock.json
