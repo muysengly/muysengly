@@ -11,6 +11,7 @@
 # bundler cache
 _site
 vendor
+Gemfile.lock
 
 # rubygem
 *.gem
@@ -18,3 +19,6 @@ vendor
 # npm dependencies
 node_modules
 package-lock.json
+
+
+
