@@ -668,8 +668,8 @@ $sidebar-display: "sidebar-display";
   #avatar {
     > a {
       display: block;
-      width: 80%;
-      height: 80%;
+      width: 70%;
+      height: 70%;
       border-radius: 50%;
       border: 2px solid rgba(222, 222, 222, 0.7);
       overflow: hidden;
@@ -702,7 +702,6 @@ $sidebar-display: "sidebar-display";
   .site-title {
     a {
       @extend %clickable-transition;
-
       font-weight: bold;
       font-size: 1.6rem;
       letter-spacing: 0.5px;
@@ -1229,8 +1228,8 @@ $sidebar-display: "sidebar-display";
   }
 
   #avatar > a {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
   }
 
   .site-subtitle {
@@ -1458,7 +1457,6 @@ $sidebar-display: "sidebar-display";
 
   .site-subtitle {
     @include ml-mr(1rem);
-
     font-size: 90%;
   }
 
@@ -1586,8 +1584,8 @@ $sidebar-display: "sidebar-display";
         @extend %profile-ml;
 
         > a {
-          width: 80%;
-          height: 80%;
+          width: 70%;
+          height: 70%;
 
           &.mx-auto {
             margin-left: 0 !important;
@@ -1597,7 +1595,6 @@ $sidebar-display: "sidebar-display";
 
       .site-title {
         @extend %profile-ml;
-
         a {
           font-size: 1.7rem;
           letter-spacing: 1px;
