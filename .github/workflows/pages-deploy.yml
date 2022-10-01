@@ -50,6 +50,7 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
+      # this test was error with assets
       # - name: Test site
       #   run: |
       #     bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href
