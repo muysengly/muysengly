@@ -1,15 +1,18 @@
 /*
  * Top bar title auto change while scrolling up/down in mobile screens.
-*/
+ */
 
-$(function() {
+$(function () {
   const titleSelector = "div.post>h1:first-of-type";
   const $pageTitle = $(titleSelector);
   const $topbarTitle = $("#topbar-title");
 
-  if ($pageTitle.length === 0 /* on Home page */
-      || $pageTitle.hasClass("dynamic-title")
-      || $topbarTitle.is(":hidden")) {/* not in mobile views */
+  if (
+    $pageTitle.length === 0 /* on Home page */ ||
+    $pageTitle.hasClass("dynamic-title") ||
+    $topbarTitle.is(":hidden")
+  ) {
+    /* not in mobile views */
     return;
   }
 
@@ -31,8 +34,8 @@ $(function() {
   }
 
   let options = {
-    rootMargin: '-48px 0px 0px 0px', // 48px equals to the topbar height (3rem)
-    threshold: [0, 1]
+    rootMargin: "-48px 0px 0px 0px", // 48px equals to the topbar height (3rem)
+    threshold: [0, 1],
   };
 
   let observer = new IntersectionObserver((entries) => {
@@ -60,8 +63,7 @@ $(function() {
   observer.observe(document.querySelector(titleSelector));
 
   /* Click title will scroll to top */
-  $topbarTitle.click(function() {
-    $("body,html").animate({scrollTop: 0}, 800);
+  $topbarTitle.click(function () {
+    $("body,html").animate({ scrollTop: 0 }, 800);
   });
-
 });
